@@ -1,0 +1,152 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1424;   
+    color: white;
+}
+
+.right h1{
+    font-size: 62px;
+    margin: 160px 0 0 60px;
+}
+.right p{
+    margin-left: 60px;
+}
+.right button{
+    height: 60px;
+    width: 190px;
+    border-radius: 10px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.left h4{
+    margin-top: 60px;
+    font-size: 28px;
+    
+}
+.left form{
+    height: 900px;
+    background-color: #342b47;
+    width: 400px;
+    margin: 20px 0 0 70px;
+    clear: both;
+    border-radius: 8px;
+    padding: 30px;
+
+}
+.left form input{
+    width: 100%;
+    border-radius: 6px;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+.left form div{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 80px;
+    padding: 30px 0 0 8px;
+}
+.color0{
+    background-color: rgb(41, 16, 16);
+}
+.color1{
+    background-color: rgb(54, 37, 37);
+}
+.color2{
+    background-color: rgb(24, 56, 23);
+}
+.color3{
+    background-color: #2a3d53;
+}
+.color4{
+    background-color: #0f5c4b;
+}
+.color5{
+    background-color: rgba(68, 14, 4, 0.787);
+}
+
+.img{
+    height: 40px;
+    width: 60px;
+    
+}
+
+
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+.section-title span {
+	color: #dc143c;
+}
+
+
+
+.brand h1 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: white;
+}
+.brand h1 span {
+	color: #dc143c;
+}
+
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 1rem;
+	letter-spacing: .1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer .social-icon {
+	display: flex;
+	margin-bottom: 30px;
+}
+#footer .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 5px;
+}
+#footer .social-item img {
+	filter: grayscale(1);
+	transition: .3s ease filter;
+}
+#footer .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer p {
+	color: white;
+	font-size: 1rem;
+}
+
