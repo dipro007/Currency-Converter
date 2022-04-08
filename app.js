@@ -19,8 +19,12 @@ inserted.addEventListener('input', function(event){
     let cdollarValue = document.getElementById('cdollarId')
     cdollarValue.innerHTML = converted * 0.015
    
-     let kronaValue = document.getElementById('kronaId')
+    let kronaValue = document.getElementById('kronaId')
     kronaValue.innerHTML = converted * 0.098
+    
+    let farncValue = document.getElementById('francId')
+    farncValue.innerHTML = converted * 0.011
+    
 
 
 
